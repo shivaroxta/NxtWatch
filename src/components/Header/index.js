@@ -71,9 +71,10 @@ class Header extends Component {
                 i
                 src={
                   activeTheme === 'light'
-                    ? 'https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png'
-                    : 'https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-dark-theme-img.png'
+                    ? 'https://scontent-maa2-2.xx.fbcdn.net/v/t1.18169-9/15095531_1272345439493277_7164832317763757946_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=eWfm8R3dtYEAX8eb07a&_nc_ht=scontent-maa2-2.xx&oh=00_AfBwrb7BeSvYfg0eD2UML1Hvv_HpA-5lRbiH1Sv6TSu7Ow&oe=63FC889F'
+                    : 'https://scontent-maa2-2.xx.fbcdn.net/v/t1.18169-9/15095531_1272345439493277_7164832317763757946_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=eWfm8R3dtYEAX8eb07a&_nc_ht=scontent-maa2-2.xx&oh=00_AfBwrb7BeSvYfg0eD2UML1Hvv_HpA-5lRbiH1Sv6TSu7Ow&oe=63FC889F'
                 }
+                style={{height: '50px', width: '80px', marginLeft: '20px'}}
                 alt="website logo"
                 onClick={this.onClickLogo}
                 cursor="pointer"
